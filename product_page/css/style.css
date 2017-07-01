@@ -1,25 +1,23 @@
 body{
     /*width: 80%;*/
     /*padding:0 20px;*/
-    /*background-color: #e3dee5;*/
+    background-color: #e3dee5;
     /*background-image: url('http://68.media.tumblr.com/0d10281f030e92f9be1807f743e27d0a/tumblr_inline_oryk04USqU1rgln91_500.jpg')  !important;*/
-    /*background-image: url(images/waterfire_office_building.jpg);*/
+    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
+    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
+    /*opacity:0.2;*/
     /*background-image: url(wf.jpg);*/
-    /*background-size: cover;*/
+    background-size: cover;
     /*background: url('http://dash.ga.co/assets/jeff-bg.png');*/
     /*text-align: center;*/
+    /*background-position: 20% 80%;*/
+    /*background-attachment: fixed;*/
 }
 
-header{
-  background: url("images/waterfire_office_building.jpg");
-  background-size:cover;
-  background-position: 20% 80%;
-  background-attachment: fixed;
-}
 header > .logo{
     font-size: 2em;
     width: 100vw;
-    
+    padding-bottom: 100px;
 }
 
 /*#bottom_row{*/
@@ -41,13 +39,14 @@ article{
 
 div > .row{
   text-align: center;
-  padding-top:-140px;
+  padding-top:-340px;
 }
 
 img{
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    /*opacity: 0.5;*/
 }
 
 .reversed {
@@ -95,4 +94,95 @@ img{
 .whatwedo{
   padding:42px;
   /*background-color: green;*/
+}
+
+.my-container {
+    position: relative;
+    /*background: #5C97FF;*/
+    overflow: hidden;
+    opacity:1;
+}
+.my-container:before {
+    /*content: url('https://en.wikipedia.org/wiki/Algorithm#/media/File:Euclid_flowchart.svg');*/
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+    /*background-image: url('http://placekitten.com/1500/1000');*/
+    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 99% 0;*/
+    /*-ms-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+}
+.my-content {
+    /*content: ' ';*/
+    /*content: url('https://en.wikipedia.org/wiki/Algorithm#/media/File:Euclid_flowchart.svg');*/
+    display: block;
+    /*position: absolute;*/
+    text-align: justify;
+    padding: 10px 100px 10px 100px;
+    left: 0;
+    top: 0;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    z-index: 1;
+    /*opacity: 0.2;*/
+    /*background-image: url('http://placekitten.com/1500/1000');*/
+    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 99% 0;*/
+    /*-ms-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+}
+.my-article {
+    content: ' ';
+    display: block;
+    /*position: absolute;*/
+    text-align: justify;
+    padding: 10px 30px 10px 30px;
+    left: 0;
+    top: 0;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    z-index: 1;
+    /*opacity: 0.2;*/
+    /*background-image: url('http://placekitten.com/1500/1000');*/
+    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 99% 0;*/
+    /*-ms-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+}
+/*.my-container h1 {*/
+h1{
+    padding: 100px 0 -100px 0;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    /*color: #fff;*/
+} 
+
+article {
+  /*background: #fff;*/
+  padding: 10px 100px 100px 100px;
+}
+
+img > #Euclid_flowchart{
+  position:relative;
+  width:80%;
+  height:auto;
 }
