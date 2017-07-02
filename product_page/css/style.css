@@ -136,7 +136,7 @@ article {
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 5px;
 	height: auto;
-	width:80%;
+	width:100%;
 }
 .videoWrapper iframe {
 	position: absolute;
@@ -241,7 +241,7 @@ footer{
   justify-content: center;
 }
 
-  #tenor, #bass, #valve {
+  #basic, #watch, #help {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -288,6 +288,6 @@ footer{
   @media (max-width: 800px) {
     flex-direction: column;
     
-    #tenor, #bass, #valve { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
+    #basic, #watch, #help { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
   }
 }
