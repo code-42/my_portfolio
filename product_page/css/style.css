@@ -1,18 +1,6 @@
 body{
-    /*width: 80%;*/
-    /*padding:0 20px;*/
     background-color: #e3dee5;
     padding-top: 65px;
-    /*background-image: url('http://68.media.tumblr.com/0d10281f030e92f9be1807f743e27d0a/tumblr_inline_oryk04USqU1rgln91_500.jpg')  !important;*/
-    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
-    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
-    /*opacity:0.2;*/
-    /*background-image: url(wf.jpg);*/
-    /*background-size: cover;*/
-    /*background: url('http://dash.ga.co/assets/jeff-bg.png');*/
-    /*text-align: center;*/
-    /*background-position: 20% 80%;*/
-    /*background-attachment: fixed;*/
 }
 
 header{
@@ -23,17 +11,10 @@ header{
 }
 
 header > .logo{
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*z-index: 999;*/
     font-size: 2em;
     width: 100vw;
     padding-bottom: 100px;
 }
-
-/*#bottom_row{*/
-/*  background: url('images/waterfire_office_building.jpg');*/
-/*}*/
 
 footer{
   text-align: center;
@@ -72,27 +53,12 @@ img{
     color:blue;
 }
 
-/*#NASDAQapp{*/
-/*    width: 100%;*/
-/*}*/
-
-/*#tribute_page{*/
-/*  width:100%;*/
-/*}*/
-
-/*#old_next_sticker{*/
-/*  width:100%;*/
-/*}*/
-
-/*#gitthis{*/
-/*  font-size:30px;*/
-/*}*/
 #submit{
   text-align: center;
 }
-#emailform{
+#email_form{
   margin: 0 auto;
-  text-align: center;
+  padding-left: 40px;
 }
 #sayhi{
   background-color: #E2E2E2;
@@ -104,12 +70,10 @@ img{
 
 .whatwedo{
   padding:42px;
-  /*background-color: green;*/
 }
 
 .my-container {
     position: relative;
-    /*background: #5C97FF;*/
     overflow: hidden;
     opacity:1;
 }
@@ -123,15 +87,6 @@ img{
     height: 100%;
     z-index: 1;
     opacity: 0.2;
-    /*background-image: url('http://placekitten.com/1500/1000');*/
-    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 99% 0;*/
-    /*-ms-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-webkit-background-size: cover;*/
-    /*background-size: cover;*/
 }
 .my-content {
     /*content: ' ';*/
@@ -145,16 +100,6 @@ img{
     /*width: 100%;*/
     /*height: 100%;*/
     z-index: 1;
-    /*opacity: 0.2;*/
-    /*background-image: url('http://placekitten.com/1500/1000');*/
-    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 99% 0;*/
-    /*-ms-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-webkit-background-size: cover;*/
-    /*background-size: cover;*/
 }
 .my-article {
     content: ' ';
@@ -167,35 +112,22 @@ img{
     /*width: 100%;*/
     /*height: 100%;*/
     z-index: 1;
-    /*opacity: 0.2;*/
-    /*background-image: url('http://placekitten.com/1500/1000');*/
-    /*background-image: url('https://code-42.github.io/my_portfolio/images/CareerDevsTeam20170622.png');*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 99% 0;*/
-    /*-ms-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-webkit-background-size: cover;*/
-    /*background-size: cover;*/
 }
-/*.my-container h1 {*/
+
 h1{
     padding: 100px 0 -100px 0;
     text-align: center;
     z-index: 2;
     position: relative;
-    /*color: #fff;*/
 } 
 
 article {
-  /*background: #fff;*/
   padding: 10px 10px 100px 10px;
 }
 
 #Euclid_flowchart{
   position:relative;
   padding:10px 10px 10px 10px;
-  /*width:80%;*/
   height:auto;
 }
 
@@ -228,4 +160,134 @@ article {
   width:1px;
   height:1px;
   overflow:hidden;
+}
+
+.price-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ### BEGIN FCC STYLES*/
+/** global element styling **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    /*background: url('images/waterfire_office_building.jpg')  !important;*/
+    background-color:#eee;
+    /*text-align: center;*/
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+
+/** global classes styling **/
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: flex;
+}
+
+/*.reversed {*/
+/*    display: inline-block;*/
+/*    font-size: 100%;*/
+/*    font-weight: bold;*/
+/*    -webkit-transform:rotateY(180deg);*/
+/*    -moz-transform:rotateY(180deg);*/
+/*    -o-transform:rotateY(180deg);*/
+/*    -ms-transform:rotateY(180deg);*/
+/*    transform:rotateY(180deg);*/
+/*}*/
+
+footer{
+    text-align: center;
+    display:block;
+}
+
+/*// pricing*/
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+  #tenor, #bass, #valve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  } 
+  
+    .level {
+      background-color: #ddd;
+      color: black;
+      padding: 15px 0;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    
+    h2 {
+      margin-top: 15px;
+    }
+    
+    ol {
+      margin: 15px 0;
+      
+      li { padding: 5px 0; }
+    }
+    
+    /*button {*/
+    /*  border: 0;*/
+    /*  margin: 15px 0;*/
+    /*  background-color: #f1c40f;*/
+    /*  font-weight: 400;*/
+      
+    /*  &:hover {*/
+    /*    background-color: orange;*/
+    /*    transition: background-color 1s;*/
+    /*  }*/
+    /*}*/
+  }
+  
+  
+  @media (max-width: 800px) {
+    flex-direction: column;
+    
+    #tenor, #bass, #valve { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
+  }
 }
