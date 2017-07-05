@@ -9,6 +9,15 @@
     <meta name="author" content="">
     <!--<link rel="icon" href="../../favicon.ico">-->
     
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <link href="css/style.css" rel="stylesheet">
+       
+    
     <title>My Portfolio</title>
   </head>
 <!-- NAVBAR
@@ -18,7 +27,7 @@
     <div class="navbar-wrapper">
       <div class="container-fluid">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
           <!--<div class="container">-->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -69,12 +78,12 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="product_page/index.html" target="_blank">Product Landing Page</a></li>
+                    <li><a href="https://code-42.github.io/product_page" target="_blank">Product Landing Page</a></li>
                     <li><a href="#tribute">A Tribute Page</a></li>
                     <li><a href="survey_form/index.html" target="_blank">ACME Survey Company</a></li>
                     <li><a href="#NASDAQapp">My first MEAN Stack App</a></li>
-                    <li><a href="http://intracitygeeks.org/careerdevs/" target="_blank">CareerDevs</a></li>
-                    <li><a href="https://github.com/code-42/portfolio_page" target=_"blank">My github.com</a></li>
+                    <!--<li><a href="http://intracitygeeks.org/careerdevs/" target="_blank">CareerDevs</a></li>-->
+                    <!--<li><a href="https://github.com/code-42/my_portfolio" target=_"blank">My github.com</a></li>-->
                     
                     
                     <!-- 
@@ -114,8 +123,8 @@
             <img src="images/CareerDevsTeam20170622.png" alt="CareerDevs Team" style="width:auto; height:400px;">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>CareerDevs Team</h1>
-                  <p>Teamwork in the Classroom</p>
+                  <span style="font-size:xx-large">CareerDevs Team</span>
+                  <p style="font-size:large">Teamwork in the Classroom</p>
               </div>
             </div>
           </div>
@@ -124,7 +133,7 @@
             <img src="images/this_is_git.png" alt="this is git"  style="width:auto; height:400px;">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>this is git</h1>
+                  <span style="font-size:xx-large">this is git</span>
               </div>
             </div>
           </div>
@@ -133,7 +142,7 @@
             <img src="images/NASDAQapp.png" alt="NASDAQ App"  style="width:auto; height:400px;">
             <div class="container">
               <div class="carousel-caption">
-                <h1>My First MEAN App</h1>
+                <span style="font-size:xx-large">My First MEAN App</span>
               </div>
             </div>
         </div>
@@ -166,7 +175,7 @@
           <a href="http://intracitygeeks.org/careerdevs/" target=_"blank">
           <img class="img-circle img-responsive" src="images/NeXT_logo.svg.png" alt="Generic placeholder image" width="140" height="140">
           </a>
-          <h2>CareerDevs</h2>
+          <span class="featurette-heading">CareerDevs</span>
           <p>Teamwork in the Classroom</p>
           <p><a class="btn btn-default" href="http://intracitygeeks.org/careerdevs/" target=_"blank" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -175,8 +184,8 @@
           <a href="#NASDAQapp">
           <img class="img-circle img-responsive" src="images/NeXT_logo.svg.png" alt="Generic placeholder image" width="140" height="140">
           </a>
-          <h2>NASDAQ App</h2>
-          <p>NASDAQ app based on MEAN stack</p>
+          <span class="featurette-heading">NASDAQ App</span>
+          <p>An app based on MEAN stack</p>
           <p><a class="btn btn-default" href="#NASDAQapp" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         
@@ -184,7 +193,7 @@
           <a href="#tribute">
           <img class="img-circle img-responsive" src="images/NeXT_logo.svg.png" alt="Generic placeholder image" width="140" height="140">
           </a>
-          <h2>Tribute Page</h2>
+          <span class="featurette-heading">Tribute Page</span>
           <p>A Tribute to The Man Who Gave Me A<span id="N">N</span><span id="e">e</span><span id="X">X</span><span id="T">T</span>
 Sticker</p>
           <p><a class="btn btn-default" href="#tribute" role="button">View details &raquo;</a></p>
@@ -197,9 +206,9 @@ Sticker</p>
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-6">
-          <h2 class="featurette-heading"><a href="http://intracitygeeks.org/careerdevs/" target=_"blank">CareerDevs</a>
-          <br><span class="text-muted">Teamwork in the Classroom</span></h2>
+        <div class="col-md-6" id="careerdevs_featurette">
+          <span class="featurette-heading"><a href="http://intracitygeeks.org/careerdevs/" target=_"blank">CareerDevs</a></span>
+          <br><span class="text-muted">Teamwork in the Classroom</span>
           <p class="lead">This is the place where genius grows.</p>
         </div>
         <div class="col-md-6">
@@ -215,7 +224,7 @@ Sticker</p>
         </div>
         <div class="col-md-6">
             <p class="pull-right"><a href="#">Back to top</a></p>
-          <h2 class="featurette-heading"><a href="tribute_page/index.html" target="_blank">Tribute Page</a></h2>
+          <span class="featurette-heading"><a href="tribute_page/index.html" target="_blank">Tribute Page</a></span><br>
             <span class="text-muted">A Tribute to The Man Who Gave Me A <span id="N">N</span><span id="e">e</span><span id="X">X</span><span id="T">T</span> Sticker</span>
             <p class="lead">A true story.</p>
             
@@ -231,30 +240,29 @@ Sticker</p>
         <!--<div class="col-md-7 col-md-push-5">-->
         <div class="col-md-12">
             
-          <h2 class="featurette-heading" id="NASDAQapp">My first MEAN Stack app</h2><span class="pull-right"><a href="#">Back to top</a></span>
+          <span class="featurette-heading" id="NASDAQapp">My first MEAN Stack app</span><span class="pull-right"><a href="#">Back to top</a></span>
           
 
             <div class="container">
               <div class="panel-group">
                 <div class="panel panel-default">
                   <div class="panel-heading">
-                    <h4 class="panel-title">
+                    <span class="panel-title">
                       <a data-toggle="collapse" href="#collapse1">An adaptation of the MEAN stack Hotel tutorial</a>  <span>&lt;-- click me</span>
-                      
-                    </h4>
+                    </span>
                   </div>
                   <div id="collapse1" class="panel-collapse collapse in">
                     <div class="panel-footer">
                     <div class="container">
                       <div class="row">
                         <div class="col-md-12">
-                          <h1>My NASDAQ App</h1>
+                          <span style="font-size:xx-large">My NASDAQ App</span>
                           <!--<p><span>An adaptation of the MEAN stack Hotel tutorial.</span></p>-->
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-5">
-                          <img id="NASDAQapp" src="images/NASDAQapp.png"/>
+                          <img id="NASDAQapp_img" src="images/NASDAQapp.png"/>
                         </div>
                         <div class="col-md-7">
                           <article>
@@ -296,7 +304,7 @@ Sticker</p>
                       <div class="row">
                         <div class="col-md-6">
                           <!--<div>-->
-                            <article>
+                            <article id="how_it_works">
                               <p><strong>Here's how this app works:</strong></p>
                               <p>Author: Edward Dupre, on June 23, 2017</p>
                                 <ol>
@@ -311,7 +319,7 @@ Sticker</p>
                                     <li>in the DataFactory, the stockDisplay function  returns an http get request from yahoo.com's finance api
                                     https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22' + symbol + '%22)&format=json&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=
                                     <br><br>
-                                    you can see the variable "symbol" in the api request, that is the symbol entered into the form.
+                                    you can see the variable <q>symbol</q> in the api request, that is the symbol entered into the form.
                                     </li>
                                     <li>yahoo returns a json file with the data you requested
                                     </li>
@@ -368,17 +376,9 @@ Sticker</p>
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    
+ 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
-    <link href="css/style.css" rel="stylesheet">
- 
   </body>
 </html>
