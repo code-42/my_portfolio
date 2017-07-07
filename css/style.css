@@ -11,10 +11,15 @@ article{
 }
 
 img{
-    /*width: 100%;*/
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.img-circle{
+  width:140px;
+  height:auto;
 }
 
 .featurette{
@@ -42,8 +47,13 @@ img{
   width: 100%;
 }
 
-#how_it_works{
+#json_file{
   width: 100%;
+}
+
+#how_it_works, #project_definition{
+  width: 100%;
+  word-wrap: break-word;
 }
 
 #tribute{
@@ -98,7 +108,7 @@ header{
 }
 
 /* NeXT LOGO*/
-/* COMMENTED OUT BECAUSE OF POOR CONTRAST SO NOT USESD*/
+/* COMMENTED OUT BECAUSE OF POOR CONTRAST SO NOT USED ON THIS PAGE*/
 /*.N{*/
 /*  color: red;*/
 /*}*/
@@ -114,11 +124,11 @@ header{
 /* END NeXT LOGO*/
 
   /* https://bootsnipp.com/snippets/featured/fancy-navbar-login-sign-in-form */
-  #login-dp{
-    min-width: 250px;
-    padding: 14px 14px 0;
-    overflow:hidden;
-    background-color:rgba(255,255,255,.8);
+#login-dp{
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow:hidden;
+  background-color:rgba(255,255,255,.8);
 }
 #login-dp .help-block{
     font-size:12px    
