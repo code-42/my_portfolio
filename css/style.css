@@ -3,6 +3,7 @@ body{
     text-align: center;
     padding: 51px;
     background-color: #e3deee;
+    /*background-color: green;*/
 }
 
 article{
@@ -15,6 +16,11 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /*border: 1px solid #777;*/
+}
+
+#logos{
+  border: 1px solid #777;
 }
 
 .img-circle{
@@ -123,7 +129,8 @@ header{
 /*}*/
 /* END NeXT LOGO*/
 
-  /* https://bootsnipp.com/snippets/featured/fancy-navbar-login-sign-in-form */
+/*  begin of email drop-down */
+/* https://bootsnipp.com/snippets/featured/fancy-navbar-login-sign-in-form */
 #login-dp{
   min-width: 250px;
   padding: 14px 14px 0;
@@ -174,5 +181,4 @@ header{
         border-top:0 none;
     }
 }
-
-  
+/*  end of email drop-down */
