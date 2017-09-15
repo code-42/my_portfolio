@@ -20,11 +20,18 @@
 				<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
 					<!--<div class="container">-->
 					<div class="navbar-header">
-						<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#">My Portfolio</a>
+						<!-- 
+						<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+							<span class="sr-only">Toggle navigation</span> 
+							<span class="icon-bar"></span> 
+							<span class="icon-bar"></span> 
+							<span class="icon-bar"></span></button> 
+						--> 	
+							<a class="active navbar-brand" href="#">My Portfolio</a>
 					</div>
 					<div class="navbar-collapse collapse" id="navbar">
 						<ul class="nav navbar-nav">
-							<li class="active">
+							<li>
 								<a href="#">Home</a>
 							</li>
 							<li class="dropdown">
@@ -35,7 +42,17 @@
 									</li>
 									<li>
 										<a href="https://www.facebook.com" target="_blank">facebook</a>
-									</li><!-- 
+									</li>
+									<li>
+										<a href="https://twitter.com/GeekyCoderr" target="_blank">twitter</a>
+									</li>
+									<li>
+										<a href="https://github.com/code-42" target="_blank">github</a>
+									</li>
+									<li>
+										<a href="https://ide.c9.io/code42/production" target="_blank">cloud9</a>
+									</li>
+									<!-- 
                                         <li role="separator" class="divider"></li>
                                         <li class="dropdown-header">Nav header</li>
                                         <li><a href="#">Separated link</a></li>
@@ -104,7 +121,7 @@
 								</ul>
 							</li>
 							<li>
-								<a href="https://bfxdata.com/" class="active">BTC/USD = </span><span class="active" id="btc"></span></a>
+								<a href="https://bfxdata.com/orderbooks/btcusd" target="_blank" class="active">BTC/USD = </span><span class="active" id="btc"></span></a>
 							</li>
 						</ul>
 					</div><!--</div>-->
@@ -141,10 +158,12 @@
 						</div>
 					</div>
 					<div class="item">
-						<img alt="NASDAQ App" src="images/NASDAQapp.png" style="width:auto; height:400px;" class="img-responsive">
+						<a href="#NASDAQapp">
+							<img alt="NASDAQ App" src="images/NASDAQapp.png" style="width:auto; height:400px;" class="img-responsive">
+						</a>
 						<div class="container">
 							<div class="carousel-caption">
-								<span style="font-size:xx-large">My First MEAN App</span>
+								<span style="font-size:xx-large">My First MEAN Stack App</span>
 							</div>
 						</div>
 					</div>
