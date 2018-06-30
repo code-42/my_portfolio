@@ -103,6 +103,9 @@
                                         <a href="http://aws-spring-selenium-mysql-scraper.us-east-2.elasticbeanstalk.com/" target="_blank">Web Scraper Project</a>
                                     </li>
                                     <li>
+                                        <a href="http://18.191.196.165/" target="_blank">Wordpress Blog on AWS</a>
+                                    </li>
+                                    <li>
                                         <a href="https://code-42.github.io/random_quote_machine" target="_blank">Random Quote Machine</a>
                                     </li>
                                     <li>
@@ -268,7 +271,8 @@
                                                     <h1><strong>Project Definition:</strong></h1>
                                                     <p>Create a new full-stack mean application that is based upon the companies in the Nasdaq index of companies. Each company has an abbreviated symbol (facebook = fb, tesla = tesla, apple = appl, etc).</p>
                                                     <p>The list can be downloaded here: http://www.nasdaq.com/screening/company-list.aspx "Symbol","Name","LastSale","MarketCap","IPOyear","Sector","industry","Summary Quote", "ZNGA","Zynga Inc.","3.705","$3.19B","2011","Technology","EDP
-                                                        Services","http://www.nasdaq.com/symbol/znga",</p>
+                                                        Services","http://www.nasdaq.com/symbol/znga",
+                                                    </p>
                                                     <p>your app should allow a user to</p>
                                                     <ol>
                                                         <li>enter an abbreviated stock symbol,</li>
@@ -295,7 +299,8 @@
                                                 <p>Author: Edward Dupre, on June 23, 2017</p>
                                                 <ol>
                                                     <li>when you enter a stock symbol in the form and click submit, ng-model binds the input box to a property on the scope. So, the value of the input box gets assigned to vm.symbol, which is a property of
-                                                        ng-model.</li>
+                                                        ng-model.
+                                                    </li>
                                                     <li>when you click submit, vm.getStock() assigns vm.symbol to the variable stockSymbol.</li>
                                                     <li>inside of the controller, stockSymbol is passed to the stockDisplay function in the DataFactory via stockDataFactory.stockDisplay(stockSymbol)</li>
                                                     <li>in the DataFactory, the stockDisplay function returns an http get request from yahoo.com's finance api https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22'
