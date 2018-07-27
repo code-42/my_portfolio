@@ -60,3 +60,4 @@ typings/
 # prevents down level git repos from getting pushed to github
 */.git
 
+/.metadata/
