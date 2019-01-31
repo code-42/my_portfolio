@@ -13,214 +13,179 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- Optional theme -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <title>My Portfolio</title>
 </head>
 <!-- NAVBAR
 ================================================== -->
 
 <body>
-    <header>
-        <div class="navbar-wrapper">
-            <div class="container-fluid">
-                <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-                    <!--<div class="container">-->
-                    <div class="navbar-header">
-                        <!-- 
-						<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
-							<span class="sr-only">Toggle navigation</span> 
-							<span class="icon-bar"></span> 
-							<span class="icon-bar"></span> 
-							<span class="icon-bar"></span></button> 
-						-->
-                        <a class="active navbar-brand" href="#">My Portfolio</a>
-                    </div>
-                    <div class="navbar-collapse collapse" id="navbar">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li class="dropdown">
-                                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">About Me<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/edward-dupre-9b859b143/" target="_blank">LinkedIn</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com" target="_blank">facebook</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/GeekyCoderr" target="_blank">twitter</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/code-42" target="_blank">github</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://ide.c9.io/code42/production" target="_blank">cloud9</a>
-                                    </li>
-                                    <!-- 
-                                        <li role="separator" class="divider"></li>
-                                        <li class="dropdown-header">Nav header</li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    -->
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Contact Me<span class="caret"></span></a>
-                                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Contact Me</b> <span class="caret"></span></a>-->
-                                <ul class="dropdown-menu" id="login-dp">
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                Say Hello!
-                                                <form accept-charset="UTF-8" action="email.html" class="form" id="login-nav" name="login-nav">
-                                                    <div class="form-group">
-                                                        <label class="sr-only" for="exampleInputEmail1">Please enter your name</label> <input class="form-control" id="exampleInputEmail1" placeholder="Please enter your name" required="" type="text">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="sr-only" for="exampleInputEmail2">Please enter your email address</label> <input class="form-control" id="exampleInputEmail2" placeholder="Email address" required="" type="email">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <button class="btn btn-primary btn-block" type="submit">Submit</button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Projects<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <!--<li>-->
-                                    <!--	<a href="https://code-42.github.io/newsapi/" target="_blank">News That You Choose</a>-->
-                                    <!--</li>-->
-                                    <!--<li>-->
-                                    <!--	<a href="https://code-42.github.io/weather_app/" target="_blank">Local Weather App</a>-->
-                                    <!--</li>-->
-                                    <li>
-                                        <a href="http://yahoo-scraper.us-east-2.elasticbeanstalk.com/" target="_blank">Web Scraper Project</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://18.191.196.165/" target="_blank">Wordpress Blog on AWS</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://code-42.github.io/random_quote_machine" target="_blank">Random Quote Machine</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://code-42.github.io/product_page" target="_blank">Product Landing Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="#tribute">A Tribute Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://code-42.github.io/survey_form/" target="_blank">ACME Survey Company</a>
-                                    </li>
-                                    <li>
-                                        <a href="#NASDAQapp">My first MEAN Stack App</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://code-42.github.io/weather_app/" target="_blank">My Weather App</a>
-                                    </li>
-                                    <!--<li><a href="http://intracitygeeks.org/careerdevs/" target="_blank">CareerDevs</a></li>-->
-                                    <!--<li><a href="https://github.com/code-42/my_portfolio" target=_"blank">My github.com</a></li>-->
-                                    <!-- 
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav navbar-inverse" role="navigation">
+        <div class="container topnav">
+                <!--<div class="container">-->
+                <div class="navbar-header">
+                    <!-- 
+                    <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span></button> 
+                    -->
+                    <a class="active navbar-brand" href="#">My Portfolio</a>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">About Me<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/edward-dupre-9b859b143/" target="_blank">LinkedIn</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com" target="_blank">facebook</a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/GeekyCoderr" target="_blank">twitter</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/code-42" target="_blank">github</a>
+                                </li>
+                                <li>
+                                    <a href="https://ide.c9.io/code42/production" target="_blank">cloud9</a>
+                                </li>
+                                <!-- 
                                     <li role="separator" class="divider"></li>
                                     <li class="dropdown-header">Nav header</li>
                                     <li><a href="#">Separated link</a></li>
                                     <li><a href="#">One more separated link</a></li>
-                                    -->
-                                </ul>
+                                -->
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Contact Me<span class="caret"></span></a>
+                            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Contact Me</b> <span class="caret"></span></a>-->
+                            <ul class="dropdown-menu" id="login-dp">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            Say Hello!
+                                            <form accept-charset="UTF-8" action="email.html" class="form" id="login-nav" name="login-nav">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputEmail1">Please enter your name</label> <input class="form-control" id="exampleInputEmail1" placeholder="Please enter your name" required="" type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputEmail2">Please enter your email address</label> <input class="form-control" id="exampleInputEmail2" placeholder="Email address" required="" type="email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Projects<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--<li>-->
+                                <!--	<a href="https://code-42.github.io/newsapi/" target="_blank">News That You Choose</a>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                <!--	<a href="https://code-42.github.io/weather_app/" target="_blank">Local Weather App</a>-->
+                                <!--</li>-->
+                                <li>
+                                    <a href="http://yahoo-scraper.us-east-2.elasticbeanstalk.com/" target="_blank">Web Scraper Project</a>
+                                </li>
+                                <li>
+                                    <a href="http://18.191.196.165/" target="_blank">Wordpress Blog on AWS</a>
+                                </li>
+                                <li>
+                                    <a href="https://code-42.github.io/random_quote_machine" target="_blank">Random Quote Machine</a>
+                                </li>
+                                <li>
+                                    <a href="https://code-42.github.io/product_page" target="_blank">Product Landing Page</a>
+                                </li>
+                                <li>
+                                    <a href="#tribute">A Tribute Page</a>
+                                </li>
+                                <li>
+                                    <a href="https://code-42.github.io/survey_form/" target="_blank">ACME Survey Company</a>
+                                </li>
+                                <li>
+                                    <a href="#NASDAQapp">My first MEAN Stack App</a>
+                                </li>
+                                <li>
+                                    <a href="https://code-42.github.io/weather_app/" target="_blank">My Weather App</a>
+                                </li>
+                                <!--<li><a href="http://intracitygeeks.org/careerdevs/" target="_blank">CareerDevs</a></li>-->
+                                <!--<li><a href="https://github.com/code-42/my_portfolio" target=_"blank">My github.com</a></li>-->
+                                <!-- 
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                                -->
+                            </ul>
+                        </li>
+                        <!--<li>-->
+                            <!--<a href="#" class="active">BTC/USD = </span><span class="active" id="btc"></span></a>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+                <!--</div>-->
+            </nav>
+        <!-- </div> -->
+    <!-- </div> -->
+    <!-- </header> -->
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Edward Dupre</h1>
+                        <h2>< Software Developer /></h2>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/geekycoderr" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
-                            <!--<li>-->
-                                <!--<a href="#" class="active">BTC/USD = </span><span class="active" id="btc"></span></a>-->
-                            <!--</li>-->
+                            <li>
+                                <a href="https://github.com/code-42" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/edward-dupre-web-developer" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
                         </ul>
                     </div>
-                    <!--</div>-->
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- Carousel
-    <!==================================================== -->
-    <div class="container">
-        <div class="carousel slide" data-ride="carousel" id="myCarousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-                <li data-slide-to="1" data-target="#myCarousel"></li>
-                <li data-slide-to="2" data-target="#myCarousel"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="row">
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img alt="CareerDevs Team" src="images/CareerDevsTeam20170622.png" style="width:auto; height:400px;" class="img-responsive">
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <span style="font-size:xx-large">CareerDevs Team</span>
-                                <p style="font-size:large">Teamwork in the Classroom</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img alt="this is git" src="images/this_is_git.png" style="width:auto; height:400px;" class="img-responsive">
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <span style="font-size:xx-large">this is git</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a href="#NASDAQapp">
-                            <img alt="NASDAQ App" src="images/NASDAQapp.png" style="width:auto; height:400px;" class="img-responsive">
-                        </a>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <span style="font-size:xx-large">My First MEAN Stack App</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a href="https://code-42.github.io/newsapi" target="_blank">
-                            <img id="logos" alt="News App" src="images/NewsLogos.png" style="width:auto; height:400px;" class="img-responsive">
-                        </a>
-                    </div>
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a>
-                    <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
                 </div>
             </div>
-        </div>
-    </div><br>
+        </div> <!-- /.container -->
+    </div> <!-- /.intro-header -->
+    <br>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container marketing">
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-            <div class="col-lg-4">
-                <a href="http://intracitygeeks.org/careerdevs/" target="_blank"><img alt="Generic placeholder image" class="img-circle img-responsive" src="images/NeXT_logo.svg.png"></a> <span class="featurette-heading">CareerDevs</span>
-                <p>Teamwork in the Classroom</p>
-                <p><a class="btn btn-default" href="http://intracitygeeks.org/careerdevs/" role="button" target="_blank">View details &raquo;</a></p>
-            </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <a href="#NASDAQapp"><img alt="Generic placeholder image" class="img-circle img-responsive" src="images/NeXT_logo.svg.png"></a> <span class="featurette-heading">NASDAQ App</span>
-                <p>An app based on MEAN stack</p>
-                <p><a class="btn btn-default" href="#NASDAQapp" role="button">View details &raquo;</a></p>
-            </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <a href="#tribute"><img alt="Generic placeholder image" class="img-circle img-responsive" src="images/NeXT_logo.svg.png"></a> <span class="featurette-heading">Tribute Page</span>
-                <p>A Tribute to The Man Who Gave Me A<span id="N">N</span><span id="e">e</span><span id="X">X</span><span id="T">T</span> Sticker</p>
-                <p><a class="btn btn-default" href="#tribute" role="button">View details &raquo;</a></p>
-            </div>
-            <!-- /.col-lg-4 -->
-        </div>
-        <!-- /.row -->
+
         <!-- START THE FEATURETTES -->
         <hr class="featurette-divider">
         <div class="row featurette">
@@ -242,8 +207,6 @@
                 <div class="container">
                     <div class="panel-group">
                         <div class="panel panel-default">
-
-
                             <div class="panel-heading">
                                 <span class="panel-title"><a data-toggle="collapse" href="#collapse2">A Tribute to The Man Who Gave Me A <span class="N">N</span><span class="e">e</span><span class="X">X</span><span class="T">T</span> Sticker <span>&lt;-- click me</span></a></span>
                             </div>
@@ -366,19 +329,15 @@
                 </div>
             </div>
         </div>
-
 <!-- end NASDAQapp collapse div -->
-
-
         <hr class="featurette-divider">
         <!-- /END THE FEATURETTES -->
-
-
-        <!-- FOOTER -->
-        <footer>
-            <p id="footer">&copy; 2017 Edward Dupre &middot; <a href="#">Back to My Portfolio</a> &middot; <a href="https://github.com/code-42/my_portfolio">My Github Repo</a></p>
-        </footer>
     </div>
+    <!-- FOOTER -->
+    <footer>
+        <p id="footer">&copy; 2019 Edward Dupre &middot; <a href="#">Back to My Portfolio</a> &middot; <a href="https://github.com/code-42/my_portfolio">My Github Repo</a></p>
+    </footer>
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
